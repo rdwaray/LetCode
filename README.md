@@ -7,11 +7,10 @@ It supports reusable utilities, try-catch with logging, and CSV-driven data inpu
 ---------------------------------------  
 Tools
 ---------------------------------------  
-- Java 11+
+- Java
 - Selenium WebDriver
 - JUnit
 - Cucumber (BDD)
-- JavaFaker
 - WebDriverManager
 - Chrome DevTools (for ad blocking)
 
