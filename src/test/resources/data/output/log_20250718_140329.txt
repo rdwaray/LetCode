@@ -1,0 +1,157 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of dialog boxes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Dialog']
+[INFO] Klik element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Menunggu element By.id: accept
+[INFO] Element ditemukan By.id: accept
+[INFO] Klik element By.id: accept
+[INFO] Accept alert dengan pesan: 'Hey! Welcome to LetCode'
+[INFO] Menunggu element By.id: confirm
+[INFO] Element ditemukan By.id: confirm
+[INFO] Klik element By.id: confirm
+[INFO] Isi text alert: 'Are you happy with LetCode?'
+[INFO] Dismiss alert dengan pesan: 'Are you happy with LetCode?'
+[INFO] Menunggu element By.id: prompt
+[INFO] Element ditemukan By.id: prompt
+[INFO] Klik element By.id: prompt
+[INFO] Kirim dan accept alert dengan input: 'Ray', isi alert: 'Enter your name'
+[INFO] Menunggu element By.id: modern
+[INFO] Element ditemukan By.id: modern
+[INFO] Klik element By.id: modern
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Modern Alert - Some people address me as sweet alert as well
+[INFO] Menunggu element By.cssSelector: button[aria-label='close']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='close']
+[INFO] Klik element By.cssSelector: button[aria-label='close']
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Switch different types of tabs or windows
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Tabs']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Tabs']
+[INFO] Klik element By.xpath: //a[normalize-space()='Tabs']
+[INFO] Menunggu element By.id: home
+[INFO] Element ditemukan By.id: home
+[INFO] Klik element By.id: home
+[INFO] Menunggu element By.id: multi
+[ERROR] Gagal menemukan element By.id: multi: Expected condition failed: waiting for visibility of element located by By.id: multi (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cafd2fe8b2e668b9227e43badfb4b23
+[INFO] Berhasil switch ke default window
+[INFO] Window title: Workspace | LetCode with Koushik
+[INFO] Window title: Workspace | LetCode with Koushik
+[INFO] Berhasil switch ke window index ke-1
+[INFO] Closed current tab.
+[INFO] Berhasil switch ke window index ke-0
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of frames/iframes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Klik element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Switch to frame element: By.id: firstFr
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[ERROR] Gagal menemukan element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cafd2fe8b2e668b9227e43badfb4b23
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with shadow DOM
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='DOM']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Klik element By.xpath: //a[normalize-space()='DOM']
+[INFO] Mencari Shadow Host: By.cssSelector: div.control
+[INFO] Mengambil Open Shadow Root dari host
+[INFO] Element dalam Shadow DOM ditemukan: By.cssSelector: input#fname
+[INFO] Menunggu element By.id: lname
+[ERROR] Gagal menemukan element By.id: lname: Expected condition failed: waiting for visibility of element located by By.id: lname (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cafd2fe8b2e668b9227e43badfb4b23
+[INFO] Menunggu element By.id: email
+[ERROR] Gagal menemukan element By.id: email: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51996}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cafd2fe8b2e668b9227e43badfb4b23
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/FormCSV.feature
+Scenario: Input Form with CSV
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='All in One']
+[INFO] Start filling form for: [Brian, Montoya, fowlerjohn@yahoo.com, USA (+1), 8817634140, 16185 Swanson Keys Suite 407, Suite 791, Kentucky, 41190, United States, 11221917, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (2cafd2fe8b2e668b9227e43badfb4b23)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Jacob, Kaiser, qcolon@jones.com, USA (+1), 1344167322, 249 Clark Branch Suite 129, Apt. 534, Missouri, 30148, United States, 05281917, Male, true]
+[INFO] Menunggu element By.id: firstname
+[ERROR] Gagal menemukan element By.id: firstname: Expected condition failed: waiting for visibility of element located by By.id: firstname (tried for 0 second(s) with 500 milliseconds interval)
+[INFO] Menunggu element By.id: lasttname

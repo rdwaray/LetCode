@@ -1,0 +1,6 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Take all product title and price
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms

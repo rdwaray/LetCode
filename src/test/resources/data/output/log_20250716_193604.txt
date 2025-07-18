@@ -1,0 +1,16 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/%20Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of frames/iframes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Klik element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Switch to frame element: By.id: firstFr
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input

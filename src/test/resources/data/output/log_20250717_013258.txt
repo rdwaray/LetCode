@@ -1,0 +1,9 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/FormCSV.feature
+Scenario: Input Form with CSV
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Klik element By.xpath: //a[normalize-space()='All in One']

@@ -1,0 +1,133 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Interaction
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Mengisi teks ke element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(2) => 17 Newport International University United Kingdom https://www.niu.org.uk/
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Menekan tombol pada element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '2' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '0' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 1 University of Aberdeen United Kingdom https://www.abdn.ac.uk/
+2 University of Wales, Aberystwyth United Kingdom https://www.aber.ac.uk/
+3 University of Abertay Dundee United Kingdom https://www.abertay.ac.uk/
+4 American InterContinental University - London United Kingdom https://www.aiuniv.edu/
+5 Aga Khan University United Kingdom https://www.aku.edu/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 6 Anglia Ruskin University United Kingdom https://www.anglia.ac.uk/
+7 Aston University United Kingdom https://www.aston.ac.uk/
+8 The American University in London United Kingdom https://www.aul.edu/
+9 Heythrop College, University of London United Kingdom https://www.heythrop.ac.uk/
+10 University of Manchester United Kingdom https://www.manchester.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 11 Middlesex University United Kingdom https://www.mdx.ac.uk/
+12 Imperial College School of Medicine United Kingdom https://www.med.ic.ac.uk/
+13 The Manchester Metropolitan University United Kingdom https://www.mmu.ac.uk/
+14 Napier University United Kingdom https://www.napier.ac.uk/
+15 University of Newcastle-upon-Tyne United Kingdom https://www.ncl.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+17 Newport International University United Kingdom https://www.niu.org.uk/
+18 University of Northampton United Kingdom https://www.northampton.ac.uk/
+19 University of Nottingham United Kingdom https://www.nottingham.ac.uk/
+20 Nottingham Trent University United Kingdom https://www.ntu.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 21 Open University United Kingdom https://www.open.ac.uk/
+22 University of Oxford United Kingdom https://www.ox.ac.uk/
+23 University of Paisley United Kingdom https://www.paisley.ac.uk/
+24 University of Plymouth United Kingdom https://www.plymouth.ac.uk/
+25 University of Portsmouth United Kingdom https://www.port.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 26 Queen Mary, University of London United Kingdom https://www.qmul.ac.uk/
+27 The Queen's University Belfast United Kingdom https://www.qub.ac.uk/
+28 Royal Academy of Music, University of London United Kingdom https://www.ram.ac.uk/
+29 Royal College of Art United Kingdom https://www.rca.ac.uk/
+30 Royal College of Music, University of London United Kingdom https://www.rcm.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 31 University of Reading United Kingdom https://www.rdg.ac.uk/
+32 Royal Free Hospital School of Medicine, University of London United Kingdom https://www.rfhsm.ac.uk/
+33 The Robert Gordon University United Kingdom https://www.rgu.ac.uk/
+34 Royal Holloway and Bedford New College United Kingdom https://www.rhbnc.ac.uk/
+35 Richmond University - The American International University in London United Kingdom https://www.richmond.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 36 Roehampton University of Surrey United Kingdom https://www.roehampton.ac.uk/
+37 University of Salford United Kingdom https://www.salford.ac.uk/
+38 Institute of Advanced Legal Studies, University of London United Kingdom https://www.sas.ac.uk/ials/
+39 Institute of Classical Studies, University of London United Kingdom https://www.sas.ac.uk/icls/
+40 Institute of Germanic Studies, University of London United Kingdom https://www.sas.ac.uk/igs/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 41 Institute of Latin American Studies, University of London United Kingdom https://www.sas.ac.uk/ilas/
+42 Warburg Institute, University of London United Kingdom https://www.sas.ac.uk/warburg/
+43 South Bank University United Kingdom https://www.sbu.ac.uk/
+44 Schiller International University, London United Kingdom https://www.schillerlondon.ac.uk/
+45 Stratford College London United Kingdom https://www.sclondon.ac/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms

@@ -1,0 +1,12 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Element,ActionHandling.feature
+Scenario: Drag element A and drop to element B
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Delay selama 4000 ms

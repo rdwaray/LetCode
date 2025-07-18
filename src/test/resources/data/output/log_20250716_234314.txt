@@ -1,0 +1,19 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Interaction
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Mengisi teks ke element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Menekan tombol pada element By.cssSelector: #dt-search-0

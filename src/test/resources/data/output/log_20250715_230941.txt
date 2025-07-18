@@ -1,0 +1,46 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Item validation, check their details
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Element ditemukan By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Klik element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+[INFO] Menunggu element By.cssSelector: .subtitle.mt-3
+[INFO] Element ditemukan By.cssSelector: .subtitle.mt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .subtitle.mt-3 => ₹ 109.95
+[INFO] Melakukan navigasi back
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Element ditemukan By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Klik element By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Mens Casual Premium Slim Fit T-Shirts
+[INFO] Menunggu element By.cssSelector: .subtitle.mt-3
+[INFO] Element ditemukan By.cssSelector: .subtitle.mt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .subtitle.mt-3 => ₹ 22.3
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Add product to cart and checkout
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .fas.fa-user
+[INFO] Element ditemukan By.cssSelector: .fas.fa-user
+[INFO] Klik element By.cssSelector: .fas.fa-user
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Username']
+[ERROR] Gagal menemukan element By.xpath: //input[@placeholder='Enter Username']: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Enter Username'] (tried for 0 second(s) with 500 milliseconds interval)
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Password']
+[ERROR] Gagal menemukan element By.xpath: //input[@placeholder='Enter Password']: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Enter Password'] (tried for 0 second(s) with 500 milliseconds interval)
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary']
+[ERROR] Gagal menemukan element By.xpath: //button[@class='button is-primary']: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='button is-primary'] (tried for 0 second(s) with 500 milliseconds interval)
+[INFO] Menunggu element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[ERROR] Gagal menemukan element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']: Expected condition failed: waiting for visibility of element located by By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops'] (tried for 0 second(s) with 500 milliseconds interval)
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']

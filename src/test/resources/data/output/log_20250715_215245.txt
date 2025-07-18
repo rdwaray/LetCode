@@ -1,0 +1,2 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Take all product title and price

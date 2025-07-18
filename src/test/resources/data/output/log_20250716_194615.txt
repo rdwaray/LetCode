@@ -1,0 +1,12 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/%20Alert,Window,Frame,Shadow.feature
+Scenario: Interact with shadow DOM
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='DOM']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Klik element By.xpath: //a[normalize-space()='DOM']
+[INFO] Mencari Shadow Host: By.cssSelector: div.control
+[INFO] Mengambil Open Shadow Root dari host
+[INFO] Element dalam Shadow DOM ditemukan: By.cssSelector: input#fname

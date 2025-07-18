@@ -1,0 +1,56 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Assertion
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Simple table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Simple table']
+[INFO] [ASSERT PASSED] Total expected: 858 | Total displayed: 858
+[INFO] Klik element langsung: [[[[[[[[ChromeDriver: chrome on windows (d7c9a160d5b99999d0933ae981314199)] -> id: simpletable]] -> xpath: .//tbody/tr]] -> tag name: td]] -> xpath: //input[@id='second']]
+[INFO] Klik element By.xpath: //input[@id='second'] untuk 'Raj' di kolom ke-3
+[INFO] Menunggu element By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table
+[INFO] Element ditemukan By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table
+[INFO] Berhasil mengambil text dari element By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table => Dessert (100g)
+
+Calories
+
+Fat (g)
+
+Carbs (g)
+
+Protein (g)
+
+Cholesterol(mg)
+
+Frozen yogurt
+159
+6
+24
+4
+70
+Ice cream
+237
+9
+37
+4
+40
+Eclair
+262
+16
+24
+6
+80
+Cupcake
+305
+4
+67
+4
+50
+Gingerbread
+356
+16
+49
+4
+60

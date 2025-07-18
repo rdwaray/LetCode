@@ -1,0 +1,22 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Element,ActionHandling.feature
+Scenario: Drag element point A to B
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #sample-box
+[INFO] Element ditemukan By.cssSelector: #sample-box
+[INFO] Menampilkan detail element By.cssSelector: #sample-box
+[INFO] Menunggu element By.cssSelector: #sample-box
+[INFO] Element ditemukan By.cssSelector: #sample-box
+[INFO] Berhasil drag element By.cssSelector: #sample-box sebanyak X=400, Y=400
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #sample-box
+[INFO] Element ditemukan By.cssSelector: #sample-box
+[INFO] Menampilkan detail element By.cssSelector: #sample-box

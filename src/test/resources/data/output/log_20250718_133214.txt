@@ -1,0 +1,11 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of dialog boxes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Dialog']
+[INFO] Klik element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Menunggu element By.id: accept
+[INFO] Element ditemukan By.id: accept
+[INFO] Klik element By.id: accept
+[INFO] Accept alert dengan pesan: 'Hey! Welcome to LetCode'
+[INFO] Menunggu element By.id: confirm

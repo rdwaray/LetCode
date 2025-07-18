@@ -1,0 +1,32 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Interaction
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Mengisi teks ke element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(2) => 17 Newport International University United Kingdom https://www.niu.org.uk/
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Menekan tombol pada element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '2' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '0' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 1 University of Aberdeen United Kingdom https://www.abdn.ac.uk/
+2 University of Wales, Aberystwyth United Kingdom https://www.aber.ac.uk/
+3 University of Abertay Dundee United Kingdom https://www.abertay.ac.uk/
+4 American InterContinental University - London United Kingdom https://www.aiuniv.edu/
+5 Aga Khan University United Kingdom https://www.aku.edu/

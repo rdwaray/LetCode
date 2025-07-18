@@ -1,0 +1,20 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Download and Upload data
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Klik element By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //span[@class='file-label']
+[INFO] Element ditemukan By.xpath: //span[@class='file-label']
+[ERROR] Gagal mengisi teks ke element By.xpath: //span[@class='file-label']: invalid element state
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea94ba19823b8c18045e22d6876e57b4, clearElement {id=f.2C80FA29B9824E24A9F9EB98F9C6A132.d.CD6675D382E5F77FC74E5A056D7E34DC.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58592/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ea94ba19823b8c18045e22d6876e57b4)] -> xpath: //span[@class='file-label']]
+Session ID: ea94ba19823b8c18045e22d6876e57b4

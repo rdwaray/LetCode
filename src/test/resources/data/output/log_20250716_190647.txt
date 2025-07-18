@@ -1,0 +1,29 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/%20Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of dialog boxes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Dialog']
+[INFO] Klik element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Menunggu element By.id: accept
+[INFO] Element ditemukan By.id: accept
+[INFO] Klik element By.id: accept
+[INFO] Accept alert dengan pesan: 'Hey! Welcome to LetCode'
+[INFO] Menunggu element By.id: confirm
+[INFO] Element ditemukan By.id: confirm
+[INFO] Klik element By.id: confirm
+[INFO] Isi text alert: 'Are you happy with LetCode?'
+[INFO] Dismiss alert dengan pesan: 'Are you happy with LetCode?'
+[INFO] Menunggu element By.id: prompt
+[INFO] Element ditemukan By.id: prompt
+[INFO] Klik element By.id: prompt
+[INFO] Kirim dan accept alert dengan input: 'Ray', isi alert: 'Enter your name'
+[INFO] Menunggu element By.id: modern
+[INFO] Element ditemukan By.id: modern
+[INFO] Klik element By.id: modern
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Modern Alert - Some people address me as sweet alert as well
+[INFO] Menunggu element By.cssSelector: button[aria-label='close']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='close']
+[INFO] Klik element By.cssSelector: button[aria-label='close']

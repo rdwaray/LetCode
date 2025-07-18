@@ -1,0 +1,16 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Calendar input
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Klik element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.id: birthday
+[INFO] Element ditemukan By.id: birthday
+[INFO] Mengisi teks ke element By.id: birthday
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .label.pt-3
+[INFO] Element ditemukan By.cssSelector: .label.pt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .label.pt-3 => 1999-02-12

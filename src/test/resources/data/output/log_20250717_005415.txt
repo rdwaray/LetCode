@@ -1,0 +1,16 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Download and Upload data
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Klik element By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-file/section/div/div/div[1]/div/div[1]/div/div/label/input
+[ERROR] Gagal menemukan element By.xpath: /html/body/app-root/app-file/section/div/div/div[1]/div/div[1]/div/div/label/input: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/app-root/app-file/section/div/div/div[1]/div/div[1]/div/div/label/input (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58725/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5da4bdbaa9916ac2103c5296320bf729

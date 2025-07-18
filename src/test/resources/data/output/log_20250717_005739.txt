@@ -1,0 +1,9 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Download and Upload data
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Klik element By.xpath: //a[normalize-space()='File management']

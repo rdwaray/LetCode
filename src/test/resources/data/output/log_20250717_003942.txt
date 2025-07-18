@@ -1,0 +1,12 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Assertion
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Simple table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Simple table']
+[INFO] [ASSERT PASSED] Total expected: 858 | Total displayed: 858
+[INFO] Klik element langsung: [[[[[[[[ChromeDriver: chrome on windows (0444e30e952e03701092db289e52562c)] -> id: simpletable]] -> xpath: .//tbody/tr]] -> tag name: td]] -> xpath: //input[@id='second']]
+[INFO] Klik element By.xpath: //input[@id='second'] untuk 'Raj' di kolom ke-3

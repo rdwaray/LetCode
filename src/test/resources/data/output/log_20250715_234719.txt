@@ -1,0 +1,27 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Buttons Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Click']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Click']
+[INFO] Klik element By.xpath: //a[normalize-space()='Click']
+[INFO] Menunggu element By.id: home
+[INFO] Element ditemukan By.id: home
+[INFO] Klik element By.id: home
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.id: position
+[INFO] Element ditemukan By.id: position
+[INFO] Menampilkan detail element By.id: position
+[INFO] Menunggu element By.id: color
+[INFO] Element ditemukan By.id: color
+[INFO] Menampilkan detail element By.id: color
+[INFO] Menunggu element By.id: property
+[INFO] Element ditemukan By.id: property
+[INFO] Menampilkan detail element By.id: property
+[INFO] Menunggu element By.id: isDisabled
+[INFO] Element ditemukan By.id: isDisabled
+[INFO] Menampilkan detail element By.id: isDisabled
+[INFO] Melakukan long press pada element: By.xpath: //div[6]//div[1]//button[1]
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //div[6]//div[1]//button[1]
+[INFO] Element ditemukan By.xpath: //div[6]//div[1]//button[1]
+[INFO] Menampilkan detail element By.xpath: //div[6]//div[1]//button[1]

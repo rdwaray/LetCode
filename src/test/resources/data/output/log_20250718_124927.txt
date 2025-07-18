@@ -1,0 +1,1569 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/FormCSV.feature
+Scenario: Input Form with CSV
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Klik element By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.C86FDB54D63BB07744E995C40A818181.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.D640411BE4D5AC273398A9228FDFCDA8.e.201}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.220D789C4C1166527E7C2FCB57643B95.e.312}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.5423C87CA5B2C221981ACE794C37E387.e.438}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.F7438FBD986E637B1828C7931E88373D.e.548}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.FC58D4E4839A1F4E7D86F5BEA939FCFD.e.664}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.12DE323EB6DB0682E7C9EA595BFE80EA.e.788}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.90E950FDA1596AB6DD10F6B92BCF9459.e.907}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.08A25F24684FE59A8551A3BD01023600.e.1029}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.A1DA46D007D2AB0E1579D2DA821B97F7.e.1134}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.21EA5399016DC701F8D972F5B70D538A.e.1257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.1BBC128AAC337EA2CE97AF246246645E.e.1388}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.066FCE391FF8A2D51B617AA4E9DC64DE.e.1483}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.3DE77E55F4971463AB9D64E0BC55BB50.e.1628}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.568BC270A97BF6418B2828BD659FD2D0.e.1723}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.87CB0ED5D1E481AB23583386FC2E9735.e.1834}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.3DD88DA87C3FC5DD303CF461C916AD00.e.1986}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.A40D276BB3A6660D0480848FAE02F390.e.2097}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.973FBCE6911327B22D76F07F9030AC3C.e.2222}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.DBAC9AAD6C96259A8FADA6406CB0C04F.e.2340}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.15122AB1FCAD177A6FC5218B2AA2EAF8.e.2462}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.E3EA2FB424E6931E58F715767B86AF06.e.2578}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.0B2DEB73A972D5CAEDADFB9357E1A5B1.e.2699}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.960BC52AE2F6562759F6E65C795E6085.e.2819}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.4C247B042D51C175A6256C54EBF4B0C5.e.2934}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.530184B29B766D253E0F55F0F23502FD.e.3057}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.A1B05DAE1A322A749AB121235DC44714.e.3174}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.890FEDD9A16B8BBA0DB6DA180F3E52D4.e.3265}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.152AE7F8F43F56CD41569155DC35B975.e.3392}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[ERROR] Gagal mengisi teks ke element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select: invalid element state
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84a62bbcd6e533996cf0fd79d31c5226, clearElement {id=f.94772DD94B374A7C49AEC1BB078D9ACA.d.BFDBE2CA1E340E7B0CCF8016AE5E6593.e.3547}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50409/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select]
+Session ID: 84a62bbcd6e533996cf0fd79d31c5226
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (84a62bbcd6e533996cf0fd79d31c5226)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']

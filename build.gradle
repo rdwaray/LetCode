@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'org.examples'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.seleniumhq.selenium:selenium-java:4.33.0")
+    implementation("io.github.bonigarcia:webdrivermanager:6.1.0")
+    implementation("com.github.javafaker:javafaker:1.0.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.13.1")
+    implementation("io.cucumber:cucumber-java:7.23.0")
+    testImplementation("io.cucumber:cucumber-junit:7.23.0")
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation("io.qameta.allure:allure-junit4:2.29.1")
+
+    implementation("com.opencsv:opencsv:5.11.2")
+}
+
+test {
+//    useJUnitPlatform()
+}
+allure {
+    autoconfigure = true
+    version = '2.20.1'
+}
+
+task webTest(type: JavaExec) {
+    description = 'Run Web tests'
+    classpath = sourceSets.test.runtimeClasspath
+    main = 'io.cucumber.core.cli.Main'
+    args = [
+            '--plugin', 'html:build/results/webTest',
+            '--plugin', 'pretty',
+            '--glue', 'Web',
+            'src/test/resources/Web'
+    ]
+}

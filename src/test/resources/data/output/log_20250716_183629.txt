@@ -1,0 +1,35 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Dropdown input with different approach
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Klik element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Menunggu element By.xpath: //*[@id="fruits"]
+[INFO] Element ditemukan By.xpath: //*[@id="fruits"]
+[INFO] Select dropdown by text 'Apple' pada element By.xpath: //*[@id="fruits"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Ant-Man' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Aquaman' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Captain America' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Elektra' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] Select dropdown by text 'C#' pada element By.xpath: //*[@id="lang"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] === Options dari dropdown By.xpath: //*[@id="lang"] ===
+[OPTION] JavaScript
+[OPTION] Java
+[OPTION] Python
+[OPTION] Swift
+[OPTION] C#
+[INFO] Menunggu element By.xpath: //*[@id="country"]
+[INFO] Element ditemukan By.xpath: //*[@id="country"]
+[INFO] Select dropdown by index '11' pada element By.xpath: //*[@id="country"]

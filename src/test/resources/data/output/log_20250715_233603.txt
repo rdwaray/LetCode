@@ -1,0 +1,21 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Input Form Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Edit']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Edit']
+[INFO] Klik element By.xpath: //a[normalize-space()='Edit']
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Mengisi teks ke element By.id: fullName
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Menekan tombol pada element By.id: fullName
+[INFO] Menunggu element By.id: getMe
+[INFO] Element ditemukan By.id: getMe
+[INFO] Berhasil mengambil text dari element By.id: getMe => 
+[INFO] Menunggu element By.id: noEdit
+[INFO] Element ditemukan By.id: noEdit
+[INFO] Menampilkan detail element By.id: noEdit
+[INFO] Menunggu element By.id: dontwrite
+[INFO] Element ditemukan By.id: dontwrite
+[INFO] Menampilkan detail element By.id: dontwrite

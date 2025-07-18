@@ -1,0 +1,17 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Interaction
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #dt-search-2
+[ERROR] Gagal menemukan element By.cssSelector: #dt-search-2: Expected condition failed: waiting for visibility of element located by By.cssSelector: #dt-search-2 (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab4f8bcd81ff5574730284cf3a7c34b7
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 1 University of Aberdeen United Kingdom https://www.abdn.ac.uk/

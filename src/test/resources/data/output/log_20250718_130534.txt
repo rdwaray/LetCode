@@ -1,0 +1,1329 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/FormCSV.feature
+Scenario: Input Form with CSV
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Klik element By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (b957c5fdb207febecff7948cd3cc3c76)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']

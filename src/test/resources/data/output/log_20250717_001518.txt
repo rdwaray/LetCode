@@ -1,0 +1,10 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Assertion
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Simple table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Simple table']
+[ASSERT PASSED] Expected: "858" | Actual: "858"

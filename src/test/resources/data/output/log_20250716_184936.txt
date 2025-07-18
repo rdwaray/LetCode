@@ -1,0 +1,9 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Calendar input
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Klik element By.xpath: //a[normalize-space()='Date & Time']

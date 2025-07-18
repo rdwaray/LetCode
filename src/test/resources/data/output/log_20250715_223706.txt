@@ -1,0 +1,41 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Add product to cart and checkout
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .fas.fa-user
+[INFO] Element ditemukan By.cssSelector: .fas.fa-user
+[INFO] Klik element By.cssSelector: .fas.fa-user
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Username']
+[INFO] Element ditemukan By.xpath: //input[@placeholder='Enter Username']
+[INFO] Mengisi teks ke element By.xpath: //input[@placeholder='Enter Username']
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Password']
+[INFO] Element ditemukan By.xpath: //input[@placeholder='Enter Password']
+[INFO] Mengisi teks ke element By.xpath: //input[@placeholder='Enter Password']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary']
+[INFO] Klik element By.xpath: //button[@class='button is-primary']
+[INFO] Menunggu element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Element ditemukan By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Klik element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Klik element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Element ditemukan By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Klik element By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Klik element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.cssSelector: img[alt='Mens Cotton Jacket']
+[INFO] Element ditemukan By.cssSelector: img[alt='Mens Cotton Jacket']
+[INFO] Klik element By.cssSelector: img[alt='Mens Cotton Jacket']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Klik element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Menunggu element By.cssSelector: button[class='button is-pulled-right']
+[INFO] Element ditemukan By.cssSelector: button[class='button is-pulled-right']
+[INFO] Klik element By.cssSelector: button[class='button is-pulled-right']

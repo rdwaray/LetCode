@@ -1,0 +1,15 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Item validation, check their details
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Element ditemukan By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Klik element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops

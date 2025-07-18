@@ -1,0 +1,60 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Check all radio buttons details
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Toggle']
+[INFO] Klik element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Menunggu element By.id: no
+[INFO] Element ditemukan By.id: no
+[INFO] Klik element By.id: no
+[INFO] Menunggu element By.id: yes
+[INFO] Element ditemukan By.id: yes
+[INFO] Klik element By.id: yes
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Menampilkan detail element By.id: one
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Menampilkan detail element By.id: two
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Klik element By.id: two
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Klik element By.id: one
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Menampilkan detail element By.id: nobug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Menampilkan detail element By.id: bug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Klik element By.id: bug
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Klik element By.id: nobug
+[INFO] Menunggu element By.xpath: //input[@id='foo']
+[INFO] Element ditemukan By.xpath: //input[@id='foo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='foo']
+[INFO] Menunggu element By.xpath: //input[@id='notfoo']
+[INFO] Element ditemukan By.xpath: //input[@id='notfoo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notfoo']
+[INFO] Menunggu element By.xpath: //input[@id='going']
+[INFO] Element ditemukan By.xpath: //input[@id='going']
+[INFO] Menampilkan detail element By.xpath: //input[@id='going']
+[INFO] Menunggu element By.xpath: //input[@id='notG']
+[INFO] Element ditemukan By.xpath: //input[@id='notG']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notG']
+[INFO] Menunggu element By.xpath: //input[@id='maybe']
+[INFO] Element ditemukan By.xpath: //input[@id='maybe']
+[INFO] Menampilkan detail element By.xpath: //input[@id='maybe']
+[INFO] Menunggu element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Element ditemukan By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menampilkan detail element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Klik element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menampilkan detail element By.xpath: //div[7]//label[2]//input[1]

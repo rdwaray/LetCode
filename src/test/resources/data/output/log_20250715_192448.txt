@@ -1,0 +1,3 @@
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']

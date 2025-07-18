@@ -1,0 +1,24 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Element,ActionHandling.feature
+Scenario: Drag element point A to B
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='AUI - 1']
+[INFO] Delay selama 3000 ms
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Element,ActionHandling.feature
+Scenario: Drag element A and drop to element B
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='AUI - 2']
+[INFO] Berhasil drag element (CDK) dari [[ChromeDriver: chrome on windows (0ced3413e639e21abdef60ab085da018)] -> id: draggable] ke [[ChromeDriver: chrome on windows (0ced3413e639e21abdef60ab085da018)] -> id: droppable]

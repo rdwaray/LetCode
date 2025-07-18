@@ -1,0 +1,27 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Take all product title and price
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Delay selama 1000 ms
+[INFO] Fjallraven - Foldsack No. 1 Ba... - ₹ 109.95
+[INFO] Mens Casual Premium Slim Fit T... - ₹ 22.3
+[INFO] Mens Cotton Jacket... - ₹ 55.99
+[INFO] Mens Casual Slim Fit... - ₹ 15.99
+[INFO] John Hardy Women's Legends Nag... - ₹ 695
+[INFO] Solid Gold Petite Micropave ... - ₹ 168
+[INFO] White Gold Plated Princess... - ₹ 9.99
+[INFO] Pierced Owl Rose Gold Plated S... - ₹ 10.99
+[INFO] WD 2TB Elements Portable Exter... - ₹ 64
+[INFO] SanDisk SSD PLUS 1TB Internal ... - ₹ 109
+[INFO] Silicon Power 256GB SSD 3D NAN... - ₹ 109
+[INFO] WD 4TB Gaming Drive Works with... - ₹ 114
+[INFO] Acer SB220Q bi 21.5 inches Ful... - ₹ 599
+[INFO] Samsung 49-Inch CHG90 144Hz Cu... - ₹ 999.99
+[INFO] BIYLACLESEN Women's 3-in-1 Sno... - ₹ 56.99
+[INFO] Lock and Love Women's Removabl... - ₹ 29.95
+[INFO] Rain Jacket Women Windbreaker ... - ₹ 39.99
+[INFO] MBJ Women's Solid Short Sleeve... - ₹ 9.85
+[INFO] Opna Women's Short Sleeve Mois... - ₹ 7.95
+[INFO] DANVOUY Womens T Shirt Casual ... - ₹ 12.99

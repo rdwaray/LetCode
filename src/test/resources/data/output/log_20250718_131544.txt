@@ -1,0 +1,2007 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of dialog boxes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Dialog']
+[INFO] Klik element By.xpath: //a[normalize-space()='Dialog']
+[INFO] Menunggu element By.id: accept
+[INFO] Element ditemukan By.id: accept
+[INFO] Klik element By.id: accept
+[INFO] Accept alert dengan pesan: 'Hey! Welcome to LetCode'
+[INFO] Menunggu element By.id: confirm
+[INFO] Element ditemukan By.id: confirm
+[INFO] Klik element By.id: confirm
+[INFO] Isi text alert: 'Are you happy with LetCode?'
+[INFO] Dismiss alert dengan pesan: 'Are you happy with LetCode?'
+[INFO] Menunggu element By.id: prompt
+[INFO] Element ditemukan By.id: prompt
+[INFO] Klik element By.id: prompt
+[INFO] Kirim dan accept alert dengan input: 'Ray', isi alert: 'Enter your name'
+[INFO] Menunggu element By.id: modern
+[INFO] Element ditemukan By.id: modern
+[INFO] Klik element By.id: modern
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Modern Alert - Some people address me as sweet alert as well
+[INFO] Menunggu element By.cssSelector: button[aria-label='close']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='close']
+[INFO] Klik element By.cssSelector: button[aria-label='close']
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Switch different types of tabs or windows
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Tabs']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Tabs']
+[INFO] Klik element By.xpath: //a[normalize-space()='Tabs']
+[INFO] Menunggu element By.id: home
+[INFO] Element ditemukan By.id: home
+[INFO] Klik element By.id: home
+[INFO] Menunggu element By.id: multi
+[ERROR] Gagal menemukan element By.id: multi: Expected condition failed: waiting for visibility of element located by By.id: multi (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Berhasil switch ke default window
+[INFO] Window title: Workspace | LetCode with Koushik
+[INFO] Window title: Workspace | LetCode with Koushik
+[INFO] Berhasil switch ke window index ke-1
+[INFO] Closed current tab.
+[INFO] Berhasil switch ke window index ke-0
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with different types of frames/iframes
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Klik element By.xpath: //a[normalize-space()='Inner HTML']
+[INFO] Switch to frame element: By.id: firstFr
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[1]/div/input
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-frame-content/div/div/form/div[2]/div/input
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+[INFO] Mengisi teks ke element By.xpath: /html/body/app-root/app-innerframe/div/div/div/div/div/input
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Alert,Window,Frame,Shadow.feature
+Scenario: Interact with shadow DOM
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='DOM']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='DOM']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='DOM']
+[INFO] Klik element By.xpath: //a[normalize-space()='DOM']
+[INFO] Mencari Shadow Host: By.cssSelector: div.control
+[INFO] Mengambil Open Shadow Root dari host
+[INFO] Element dalam Shadow DOM ditemukan: By.cssSelector: input#fname
+[INFO] Menunggu element By.id: lname
+[ERROR] Gagal menemukan element By.id: lname: Expected condition failed: waiting for visibility of element located by By.id: lname (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Menunggu element By.id: email
+[ERROR] Gagal menemukan element By.id: email: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/FormCSV.feature
+Scenario: Input Form with CSV
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='All in One']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='All in One']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='All in One']
+[INFO] Klik element By.xpath: //a[normalize-space()='All in One']
+[INFO] Start filling form for: [Brian, Montoya, fowlerjohn@yahoo.com, USA (+1), 8817634140, 16185 Swanson Keys Suite 407, Suite 791, Kentucky, 41190, United States, 11221917, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Jacob, Kaiser, qcolon@jones.com, USA (+1), 1344167322, 249 Clark Branch Suite 129, Apt. 534, Missouri, 30148, United States, 05281917, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Angie, Martinez, butlerlauren@cardenas.net, USA (+1), 4656516431, 997 Lee Mall, Apt. 816, Ohio, 63543, United States, 03121969, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Shirley, Thompson, jdickson@hotmail.com, USA (+1), 7711566606, 979 Timothy Corners, Suite 404, Oregon, 72003, United States, 07132013, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Jeffrey, Fry, awilliams@johnson.com, USA (+1), 4703883804, 91112 Emily Ville Apt. 173, Apt. 494, Arkansas, 40631, United States, 02231993, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Karl, Reynolds, lindsay25@gmail.com, USA (+1), 9831028396, 649 Valdez Isle, Suite 411, Arkansas, 03148, United States, 03021920, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Laura, Harrison, meganpeterson@hotmail.com, USA (+1), 9340694079, 217 Horton Coves, Apt. 653, New Mexico, 96570, United States, 10302000, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Katie, Campbell, mackenzie78@patterson.com, USA (+1), 3035601018, 578 Garcia Ways, Suite 995, North Carolina, 13773, United States, 10051951, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Terri, Holloway, bennettmitchell@jenkins.info, USA (+1), 5514268041, 37584 Barr Pines, Apt. 136, Idaho, 66807, United States, 11261956, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Kristen, Johnston, chill@briggs.com, USA (+1), 6940532276, 328 Jimenez Unions, Apt. 013, Alaska, 04911, United States, 01141939, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Scott, Sanchez, qcallahan@ward.info, USA (+1), 9331877926, 6439 Johnson Drive, Apt. 129, Montana, 51195, United States, 01031917, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Alexander, Edwards, gbrown@sherman.com, USA (+1), 3981442733, 3040 Martinez Lake Apt. 504, Apt. 923, Illinois, 31737, United States, 11011916, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Roberta, Hart, ldominguez@yahoo.com, USA (+1), 4962212271, 947 Samantha Mount Apt. 326, Apt. 131, Hawaii, 28649, United States, 10301998, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik dengan JS pada element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Pamela, Clark, nicholasrodriguez@yahoo.com, USA (+1), 7683024448, 761 Anderson Pike, Suite 469, Georgia, 15422, United States, 11041975, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Christopher, Chaney, jweaver@hotmail.com, USA (+1), 3584964342, 2193 Jason Walks Suite 225, Suite 309, Oregon, 22791, United States, 09291951, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [John, Blanchard, kristinenguyen@gonzalez.com, USA (+1), 8079206624, 15020 Martinez Expressway, Apt. 321, Texas, 55308, United States, 06081985, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Victoria, Thomas, rcortez@lee.com, USA (+1), 7560391299, 9773 Willie Square, Apt. 557, Colorado, 91799, United States, 01091986, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Amber, Watson, byoung@hotmail.com, USA (+1), 5505159330, 40242 Cody Circle Apt. 953, Suite 289, Arkansas, 95927, United States, 08132014, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Brittany, Rios, daniel70@callahan.net, USA (+1), 3162476182, 8697 Copeland Viaduct Suite 359, Apt. 754, Utah, 98045, United States, 05242022, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Mary, Williams, cchung@lucas-gross.org, USA (+1), 1114298896, 20058 Rivera Ports, Apt. 086, South Dakota, 35217, United States, 08061993, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Jerry, Thomas, sharon62@yahoo.com, USA (+1), 6482911499, 6153 Janice Parkway Suite 626, Suite 977, Pennsylvania, 41476, United States, 12141952, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Kevin, Zimmerman, melaniebecker@hotmail.com, USA (+1), 1669641769, 440 Daniel Track, Suite 772, Washington, 64248, United States, 03171916, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Leslie, Nolan, melanie74@wagner.com, USA (+1), 5028659739, 9510 Robert Burgs Apt. 042, Suite 764, New Hampshire, 28280, United States, 09212009, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Thomas, Griffin, bernarderin@hotmail.com, USA (+1), 5719176666, 41449 Natalie Grove, Suite 986, Maryland, 89105, United States, 06182005, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik dengan JS pada element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Scott, Rodriguez, xharris@roberts.com, USA (+1), 8347445214, 24025 Kelli Stream Suite 078, Apt. 141, Nevada, 95727, United States, 03201973, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Catherine, Smith, gclark@logan.info, USA (+1), 7319983350, 80057 James Pines Suite 037, Apt. 239, Illinois, 81241, United States, 10012019, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Denise, Newman, rbaker@gmail.com, USA (+1), 4322123775, 302 Pierce Light, Suite 567, Kansas, 08803, United States, 06161953, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Ana, Rivera, gwendolyn53@hotmail.com, USA (+1), 2605565200, 6649 Amy Light Suite 088, Apt. 832, Connecticut, 11645, United States, 08211973, Female, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Menunggu element By.xpath: //input[@id='female']
+[INFO] Element ditemukan By.xpath: //input[@id='female']
+[INFO] Klik dengan JS pada element By.xpath: //input[@id='female']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Jessica, Garcia, leahjohnson@yahoo.com, USA (+1), 8377617311, 828 Young Neck Apt. 091, Suite 637, California, 39984, United States, 10151943, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[INFO] Klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+[INFO] Start filling form for: [Brenda, Phillips, stevenlittle@gmail.com, USA (+1), 1158500692, 56367 Ramirez Extensions, Apt. 335, Arizona, 56756, United States, 02102012, Male, true]
+[INFO] Menunggu element By.id: firstname
+[INFO] Element ditemukan By.id: firstname
+[INFO] Mengisi teks ke element By.id: firstname
+[INFO] Menunggu element By.id: lasttname
+[INFO] Element ditemukan By.id: lasttname
+[INFO] Mengisi teks ke element By.id: lasttname
+[INFO] Menunggu element By.id: email
+[INFO] Element ditemukan By.id: email
+[INFO] Mengisi teks ke element By.id: email
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'USA (+1)' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[2]/div[2]/div/div/div/select
+[INFO] Menunggu element By.id: Phno
+[INFO] Element ditemukan By.id: Phno
+[INFO] Mengisi teks ke element By.id: Phno
+[INFO] Menunggu element By.id: Addl1
+[INFO] Element ditemukan By.id: Addl1
+[INFO] Mengisi teks ke element By.id: Addl1
+[INFO] Menunggu element By.id: Addl2
+[INFO] Element ditemukan By.id: Addl2
+[INFO] Mengisi teks ke element By.id: Addl2
+[INFO] Menunggu element By.id: state
+[INFO] Element ditemukan By.id: state
+[INFO] Mengisi teks ke element By.id: state
+[INFO] Menunggu element By.id: postalcode
+[INFO] Element ditemukan By.id: postalcode
+[INFO] Mengisi teks ke element By.id: postalcode
+[INFO] Menunggu element By.id: Date
+[INFO] Element ditemukan By.id: Date
+[INFO] Mengisi teks ke element By.id: Date
+[INFO] Menunggu element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Element ditemukan By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Select dropdown by text 'United States' pada element By.xpath: /html/body/app-root/app-forms/section/div/div/div[1]/div/div/form/div[5]/div[2]/div/div/div/select
+[INFO] Menunggu element By.xpath: //input[@id='male']
+[INFO] Element ditemukan By.xpath: //input[@id='male']
+[INFO] Klik element By.xpath: //input[@id='male']
+[ERROR] Gagal klik element langsung: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]: element click intercepted: Element <input type="checkbox" required=""> is not clickable at point (311, 701). Other element would receive the click: <form action="#" onsubmit="location.reload()" ngnativevalidate="" class="ng-untouched ng-pristine ng-valid" jsaction="submit:;" data-gtm-form-interact-id="0">...</form>
+  (Session info: chrome=138.0.7204.158)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c12c2108110c47aa845d160146e7482, clickElement {id=f.8306D9FAB980B4DE976879880CF8C5A3.d.1818DBFD1F2B22B98AA2374DCC57B2D1.e.4120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> xpath: //input[@type='checkbox']]
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Element di-scroll ke view By.xpath: //input[@type='submit']
+[INFO] Menunggu element By.xpath: //input[@type='submit']
+[INFO] Element ditemukan By.xpath: //input[@type='submit']
+[INFO] Klik element By.xpath: //input[@type='submit']
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Input Form Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Edit']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Edit']
+[INFO] Klik element By.xpath: //a[normalize-space()='Edit']
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Mengisi teks ke element By.id: fullName
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Menekan tombol pada element By.id: fullName
+[INFO] Menunggu element By.id: getMe
+[INFO] Element ditemukan By.id: getMe
+[INFO] Berhasil mengambil text dari element By.id: getMe => 
+[INFO] Menunggu element By.id: noEdit
+[INFO] Element ditemukan By.id: noEdit
+[INFO] Menampilkan detail element By.id: noEdit
+[INFO] Menunggu element By.id: dontwrite
+[INFO] Element ditemukan By.id: dontwrite
+[INFO] Menampilkan detail element By.id: dontwrite
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Buttons Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Click']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Click']
+[INFO] Klik element By.xpath: //a[normalize-space()='Click']
+[INFO] Menunggu element By.id: home
+[INFO] Element ditemukan By.id: home
+[INFO] Klik element By.id: home
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.id: position
+[INFO] Element ditemukan By.id: position
+[INFO] Menampilkan detail element By.id: position
+[INFO] Menunggu element By.id: color
+[INFO] Element ditemukan By.id: color
+[INFO] Menampilkan detail element By.id: color
+[INFO] Menunggu element By.id: property
+[INFO] Element ditemukan By.id: property
+[INFO] Menampilkan detail element By.id: property
+[INFO] Menunggu element By.id: isDisabled
+[INFO] Element ditemukan By.id: isDisabled
+[INFO] Menampilkan detail element By.id: isDisabled
+[INFO] Melakukan long press pada element: By.xpath: //div[6]//div[1]//button[1]
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //div[6]//div[1]//button[1]
+[INFO] Element ditemukan By.xpath: //div[6]//div[1]//button[1]
+[INFO] Menampilkan detail element By.xpath: //div[6]//div[1]//button[1]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Dropdown input with different approach
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Klik element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Menunggu element By.xpath: //*[@id="fruits"]
+[INFO] Element ditemukan By.xpath: //*[@id="fruits"]
+[INFO] Select dropdown by text 'Apple' pada element By.xpath: //*[@id="fruits"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Ant-Man' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Aquaman' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Captain America' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Elektra' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] Select dropdown by text 'C#' pada element By.xpath: //*[@id="lang"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] === Options dari dropdown By.xpath: //*[@id="lang"] ===
+[OPTION] JavaScript
+[OPTION] Java
+[OPTION] Python
+[OPTION] Swift
+[OPTION] C#
+[INFO] Menunggu element By.xpath: //*[@id="country"]
+[INFO] Element ditemukan By.xpath: //*[@id="country"]
+[INFO] Select dropdown by index '11' pada element By.xpath: //*[@id="country"]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Check all radio buttons details
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Toggle']
+[INFO] Klik element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Menunggu element By.id: no
+[INFO] Element ditemukan By.id: no
+[INFO] Klik element By.id: no
+[INFO] Menunggu element By.id: yes
+[INFO] Element ditemukan By.id: yes
+[INFO] Klik element By.id: yes
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Menampilkan detail element By.id: one
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Menampilkan detail element By.id: two
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Klik element By.id: two
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Klik element By.id: one
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Menampilkan detail element By.id: nobug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Menampilkan detail element By.id: bug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Klik element By.id: bug
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Klik element By.id: nobug
+[INFO] Menunggu element By.xpath: //input[@id='foo']
+[INFO] Element ditemukan By.xpath: //input[@id='foo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='foo']
+[INFO] Menunggu element By.xpath: //input[@id='notfoo']
+[INFO] Element ditemukan By.xpath: //input[@id='notfoo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notfoo']
+[INFO] Menunggu element By.xpath: //input[@id='going']
+[INFO] Element ditemukan By.xpath: //input[@id='going']
+[INFO] Menampilkan detail element By.xpath: //input[@id='going']
+[INFO] Menunggu element By.xpath: //input[@id='notG']
+[INFO] Element ditemukan By.xpath: //input[@id='notG']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notG']
+[INFO] Menunggu element By.xpath: //input[@id='maybe']
+[INFO] Element ditemukan By.xpath: //input[@id='maybe']
+[INFO] Menampilkan detail element By.xpath: //input[@id='maybe']
+[INFO] Menunggu element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Element ditemukan By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menampilkan detail element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Klik element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menampilkan detail element By.xpath: //div[7]//label[2]//input[1]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Calendar input
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Klik element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.id: birthday
+[INFO] Element ditemukan By.id: birthday
+[INFO] Mengisi teks ke element By.id: birthday
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .label.pt-3
+[INFO] Element ditemukan By.cssSelector: .label.pt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .label.pt-3 => 1999-02-12
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Take all product title and price
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Delay selama 1000 ms
+[INFO] Fjallraven - Foldsack No. 1 Ba... - ₹ 109.95
+[INFO] Mens Casual Premium Slim Fit T... - ₹ 22.3
+[INFO] Mens Cotton Jacket... - ₹ 55.99
+[INFO] Mens Casual Slim Fit... - ₹ 15.99
+[INFO] John Hardy Women's Legends Nag... - ₹ 695
+[INFO] Solid Gold Petite Micropave ... - ₹ 168
+[INFO] White Gold Plated Princess... - ₹ 9.99
+[INFO] Pierced Owl Rose Gold Plated S... - ₹ 10.99
+[INFO] WD 2TB Elements Portable Exter... - ₹ 64
+[INFO] SanDisk SSD PLUS 1TB Internal ... - ₹ 109
+[INFO] Silicon Power 256GB SSD 3D NAN... - ₹ 109
+[INFO] WD 4TB Gaming Drive Works with... - ₹ 114
+[INFO] Acer SB220Q bi 21.5 inches Ful... - ₹ 599
+[INFO] Samsung 49-Inch CHG90 144Hz Cu... - ₹ 999.99
+[INFO] BIYLACLESEN Women's 3-in-1 Sno... - ₹ 56.99
+[INFO] Lock and Love Women's Removabl... - ₹ 29.95
+[INFO] Rain Jacket Women Windbreaker ... - ₹ 39.99
+[INFO] MBJ Women's Solid Short Sleeve... - ₹ 9.85
+[INFO] Opna Women's Short Sleeve Mois... - ₹ 7.95
+[INFO] DANVOUY Womens T Shirt Casual ... - ₹ 12.99
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Item validation, check their details
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Element ditemukan By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Klik element By.xpath: //img[@alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+[INFO] Menunggu element By.cssSelector: .subtitle.mt-3
+[INFO] Element ditemukan By.cssSelector: .subtitle.mt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .subtitle.mt-3 => ₹ 109.95
+[INFO] Melakukan navigasi back
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Element ditemukan By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Klik element By.xpath: //img[@alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Menunggu element By.cssSelector: p[class='title']
+[INFO] Element ditemukan By.cssSelector: p[class='title']
+[INFO] Berhasil mengambil text dari element By.cssSelector: p[class='title'] => Mens Casual Premium Slim Fit T-Shirts
+[INFO] Menunggu element By.cssSelector: .subtitle.mt-3
+[INFO] Element ditemukan By.cssSelector: .subtitle.mt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .subtitle.mt-3 => ₹ 22.3
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Add product to cart and checkout
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .fas.fa-user
+[INFO] Element ditemukan By.cssSelector: .fas.fa-user
+[INFO] Klik element By.cssSelector: .fas.fa-user
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Username']
+[INFO] Element ditemukan By.xpath: //input[@placeholder='Enter Username']
+[INFO] Mengisi teks ke element By.xpath: //input[@placeholder='Enter Username']
+[INFO] Menunggu element By.xpath: //input[@placeholder='Enter Password']
+[INFO] Element ditemukan By.xpath: //input[@placeholder='Enter Password']
+[INFO] Mengisi teks ke element By.xpath: //input[@placeholder='Enter Password']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary']
+[INFO] Klik element By.xpath: //button[@class='button is-primary']
+[INFO] Menunggu element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Element ditemukan By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Klik element By.cssSelector: img[alt='Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Element ditemukan By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Klik element By.xpath: //button[@class='button is-primary mt-4']
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Element ditemukan By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Klik element By.cssSelector: img[alt='Mens Casual Premium Slim Fit T-Shirts ']
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[ERROR] Gagal menemukan element By.xpath: //button[@class='button is-primary mt-4']: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='button is-primary mt-4'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.cssSelector: img[alt='Mens Cotton Jacket']
+[ERROR] Gagal menemukan element By.cssSelector: img[alt='Mens Cotton Jacket']: Expected condition failed: waiting for visibility of element located by By.cssSelector: img[alt='Mens Cotton Jacket'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Menunggu element By.xpath: //button[@class='button is-primary mt-4']
+[ERROR] Gagal menemukan element By.xpath: //button[@class='button is-primary mt-4']: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='button is-primary mt-4'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Menunggu element By.cssSelector: button[class='button is-pulled-right']
+[ERROR] Gagal menemukan element By.cssSelector: button[class='button is-pulled-right']: Expected condition failed: waiting for visibility of element located by By.cssSelector: button[class='button is-pulled-right'] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Menunggu element By.xpath: //tbody/tr[3]/td[5]/button[1]/span[1]/i[1]
+[ERROR] Gagal menemukan element By.xpath: //tbody/tr[3]/td[5]/button[1]/span[1]/i[1]: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[3]/td[5]/button[1]/span[1]/i[1] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Menunggu element By.xpath: //tbody/tr[1]/td[2]/button[2]
+[ERROR] Gagal menemukan element By.xpath: //tbody/tr[1]/td[2]/button[2]: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[2]/button[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Delay selama 100 ms
+[INFO] Menunggu element By.xpath: //tbody/tr[1]/td[2]/button[2]
+[ERROR] Gagal menemukan element By.xpath: //tbody/tr[1]/td[2]/button[2]: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[2]/button[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Delay selama 100 ms
+[INFO] Menunggu element By.xpath: //tbody/tr[1]/td[2]/button[2]
+[ERROR] Gagal menemukan element By.xpath: //tbody/tr[1]/td[2]/button[2]: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[2]/button[2] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+[INFO] Delay selama 100 ms
+[INFO] Menunggu element By.xpath: //tbody/tr[1]/td[3]
+[ERROR] Gagal menemukan element By.xpath: //tbody/tr[1]/td[3]: Expected condition failed: waiting for visibility of element located by By.xpath: //tbody/tr[1]/td[3] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Ray\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c12c2108110c47aa845d160146e7482
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/POM.feature
+Scenario: Empty Cart
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Klik element By.xpath: //a[normalize-space()='Page Object Model']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: button[class='button is-pulled-right']
+[INFO] Element ditemukan By.cssSelector: button[class='button is-pulled-right']
+[INFO] Klik element By.cssSelector: button[class='button is-pulled-right']
+[INFO] Menunggu element By.cssSelector: .title.is-4
+[INFO] Element ditemukan By.cssSelector: .title.is-4
+[INFO] Berhasil mengambil text dari element By.cssSelector: .title.is-4 => Your cart is empty
+[ASSERT PASSED] Expected: "Your cart is empty" | Actual: "Your cart is empty"
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Interaction
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Advance table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Advance table']
+[INFO] Klik element By.xpath: //a[normalize-space()='Advance table']
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Mengisi teks ke element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(1)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(1) => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody > tr:nth-child(2)
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody > tr:nth-child(2) => 17 Newport International University United Kingdom https://www.niu.org.uk/
+[INFO] Menunggu element By.cssSelector: #dt-search-0
+[INFO] Element ditemukan By.cssSelector: #dt-search-0
+[INFO] Menekan tombol pada element By.cssSelector: #dt-search-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '2' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #dt-length-0
+[INFO] Element ditemukan By.cssSelector: #dt-length-0
+[INFO] Select dropdown by index '0' pada element By.cssSelector: #dt-length-0
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 1 University of Aberdeen United Kingdom https://www.abdn.ac.uk/
+2 University of Wales, Aberystwyth United Kingdom https://www.aber.ac.uk/
+3 University of Abertay Dundee United Kingdom https://www.abertay.ac.uk/
+4 American InterContinental University - London United Kingdom https://www.aiuniv.edu/
+5 Aga Khan University United Kingdom https://www.aku.edu/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 6 Anglia Ruskin University United Kingdom https://www.anglia.ac.uk/
+7 Aston University United Kingdom https://www.aston.ac.uk/
+8 The American University in London United Kingdom https://www.aul.edu/
+9 Heythrop College, University of London United Kingdom https://www.heythrop.ac.uk/
+10 University of Manchester United Kingdom https://www.manchester.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 11 Middlesex University United Kingdom https://www.mdx.ac.uk/
+12 Imperial College School of Medicine United Kingdom https://www.med.ic.ac.uk/
+13 The Manchester Metropolitan University United Kingdom https://www.mmu.ac.uk/
+14 Napier University United Kingdom https://www.napier.ac.uk/
+15 University of Newcastle-upon-Tyne United Kingdom https://www.ncl.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 16 University of Wales, Newport United Kingdom https://www.newport.ac.uk/
+17 Newport International University United Kingdom https://www.niu.org.uk/
+18 University of Northampton United Kingdom https://www.northampton.ac.uk/
+19 University of Nottingham United Kingdom https://www.nottingham.ac.uk/
+20 Nottingham Trent University United Kingdom https://www.ntu.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 21 Open University United Kingdom https://www.open.ac.uk/
+22 University of Oxford United Kingdom https://www.ox.ac.uk/
+23 University of Paisley United Kingdom https://www.paisley.ac.uk/
+24 University of Plymouth United Kingdom https://www.plymouth.ac.uk/
+25 University of Portsmouth United Kingdom https://www.port.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 26 Queen Mary, University of London United Kingdom https://www.qmul.ac.uk/
+27 The Queen's University Belfast United Kingdom https://www.qub.ac.uk/
+28 Royal Academy of Music, University of London United Kingdom https://www.ram.ac.uk/
+29 Royal College of Art United Kingdom https://www.rca.ac.uk/
+30 Royal College of Music, University of London United Kingdom https://www.rcm.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 31 University of Reading United Kingdom https://www.rdg.ac.uk/
+32 Royal Free Hospital School of Medicine, University of London United Kingdom https://www.rfhsm.ac.uk/
+33 The Robert Gordon University United Kingdom https://www.rgu.ac.uk/
+34 Royal Holloway and Bedford New College United Kingdom https://www.rhbnc.ac.uk/
+35 Richmond University - The American International University in London United Kingdom https://www.richmond.ac.uk/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 36 Roehampton University of Surrey United Kingdom https://www.roehampton.ac.uk/
+37 University of Salford United Kingdom https://www.salford.ac.uk/
+38 Institute of Advanced Legal Studies, University of London United Kingdom https://www.sas.ac.uk/ials/
+39 Institute of Classical Studies, University of London United Kingdom https://www.sas.ac.uk/icls/
+40 Institute of Germanic Studies, University of London United Kingdom https://www.sas.ac.uk/igs/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: #advancedtable > tbody
+[INFO] Element ditemukan By.cssSelector: #advancedtable > tbody
+[INFO] Berhasil mengambil text dari element By.cssSelector: #advancedtable > tbody => 41 Institute of Latin American Studies, University of London United Kingdom https://www.sas.ac.uk/ilas/
+42 Warburg Institute, University of London United Kingdom https://www.sas.ac.uk/warburg/
+43 South Bank University United Kingdom https://www.sbu.ac.uk/
+44 Schiller International University, London United Kingdom https://www.schillerlondon.ac.uk/
+45 Stratford College London United Kingdom https://www.sclondon.ac/
+[INFO] Delay selama 500 ms
+[INFO] Menunggu element By.cssSelector: button[aria-label='Next']
+[INFO] Element ditemukan By.cssSelector: button[aria-label='Next']
+[INFO] Klik element By.cssSelector: button[aria-label='Next']
+[INFO] Delay selama 500 ms
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Table Assertion
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Simple table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Simple table']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Simple table']
+[INFO] Klik dengan JS pada element By.xpath: //a[normalize-space()='Simple table']
+[INFO] [ASSERT PASSED] Total expected: 858 | Total displayed: 858
+[INFO] Klik element langsung: [[[[[[[[ChromeDriver: chrome on windows (7c12c2108110c47aa845d160146e7482)] -> id: simpletable]] -> xpath: .//tbody/tr]] -> tag name: td]] -> xpath: //input[@id='second']]
+[INFO] Klik element By.xpath: //input[@id='second'] untuk 'Raj' di kolom ke-3
+[INFO] Menunggu element By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table
+[INFO] Element ditemukan By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table
+[INFO] Berhasil mengambil text dari element By.cssSelector: body > app-root > app-table > section > div > div > div.column.is-6-desktop.is-8-tablet > div > div > div > div.card-conetnt > div > table => Dessert (100g)
+
+Calories
+
+Fat (g)
+
+Carbs (g)
+
+Protein (g)
+
+Cholesterol(mg)
+
+Frozen yogurt
+159
+6
+24
+4
+70
+Ice cream
+237
+9
+37
+4
+40
+Eclair
+262
+16
+24
+6
+80
+Cupcake
+305
+4
+67
+4
+50
+Gingerbread
+356
+16
+49
+4
+60
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/Table,DataHandling.feature
+Scenario: Download and Upload data
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='File management']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='File management']
+[INFO] Klik element By.xpath: //a[normalize-space()='File management']
+[INFO] Menunggu element By.xpath: //a[@id='xls']
+[INFO] Element ditemukan By.xpath: //a[@id='xls']
+[INFO] Klik element By.xpath: //a[@id='xls']
+[INFO] Menunggu element By.xpath: // a[@id='pdf']
+[INFO] Element ditemukan By.xpath: // a[@id='pdf']
+[INFO] Menunggu element By.xpath: // a[@id='pdf']
+[INFO] Element ditemukan By.xpath: // a[@id='pdf']
+[INFO] Klik dengan JS pada element By.xpath: // a[@id='pdf']
+[INFO] Menunggu element By.xpath: //a[@id='txt']
+[INFO] Element ditemukan By.xpath: //a[@id='txt']
+[INFO] Menunggu element By.xpath: //a[@id='txt']
+[INFO] Element ditemukan By.xpath: //a[@id='txt']
+[INFO] Klik dengan JS pada element By.xpath: //a[@id='txt']

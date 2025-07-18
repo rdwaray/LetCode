@@ -1,0 +1,159 @@
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Input Form Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Edit']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Edit']
+[INFO] Klik element By.xpath: //a[normalize-space()='Edit']
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Mengisi teks ke element By.id: fullName
+[INFO] Menunggu element By.id: fullName
+[INFO] Element ditemukan By.id: fullName
+[INFO] Menekan tombol pada element By.id: fullName
+[INFO] Menunggu element By.id: getMe
+[INFO] Element ditemukan By.id: getMe
+[INFO] Berhasil mengambil text dari element By.id: getMe => 
+[INFO] Menunggu element By.id: noEdit
+[INFO] Element ditemukan By.id: noEdit
+[INFO] Menampilkan detail element By.id: noEdit
+[INFO] Menunggu element By.id: dontwrite
+[INFO] Element ditemukan By.id: dontwrite
+[INFO] Menampilkan detail element By.id: dontwrite
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Understanding Buttons Type
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Click']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Click']
+[INFO] Klik element By.xpath: //a[normalize-space()='Click']
+[INFO] Menunggu element By.id: home
+[INFO] Element ditemukan By.id: home
+[INFO] Klik element By.id: home
+[INFO] Melakukan navigasi back
+[INFO] Menunggu element By.id: position
+[INFO] Element ditemukan By.id: position
+[INFO] Menampilkan detail element By.id: position
+[INFO] Menunggu element By.id: color
+[INFO] Element ditemukan By.id: color
+[INFO] Menampilkan detail element By.id: color
+[INFO] Menunggu element By.id: property
+[INFO] Element ditemukan By.id: property
+[INFO] Menampilkan detail element By.id: property
+[INFO] Menunggu element By.id: isDisabled
+[INFO] Element ditemukan By.id: isDisabled
+[INFO] Menampilkan detail element By.id: isDisabled
+[INFO] Melakukan long press pada element: By.xpath: //div[6]//div[1]//button[1]
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.xpath: //div[6]//div[1]//button[1]
+[INFO] Element ditemukan By.xpath: //div[6]//div[1]//button[1]
+[INFO] Menampilkan detail element By.xpath: //div[6]//div[1]//button[1]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Dropdown input with different approach
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Klik element By.xpath: //a[normalize-space()='Drop-Down']
+[INFO] Menunggu element By.xpath: //*[@id="fruits"]
+[INFO] Element ditemukan By.xpath: //*[@id="fruits"]
+[INFO] Select dropdown by text 'Apple' pada element By.xpath: //*[@id="fruits"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Ant-Man' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Aquaman' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Captain America' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="superheros"]
+[INFO] Element ditemukan By.xpath: //*[@id="superheros"]
+[INFO] Select dropdown by text 'Elektra' pada element By.xpath: //*[@id="superheros"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] Select dropdown by text 'C#' pada element By.xpath: //*[@id="lang"]
+[INFO] Menunggu element By.xpath: //*[@id="lang"]
+[INFO] Element ditemukan By.xpath: //*[@id="lang"]
+[INFO] === Options dari dropdown By.xpath: //*[@id="lang"] ===
+[OPTION] JavaScript
+[OPTION] Java
+[OPTION] Python
+[OPTION] Swift
+[OPTION] C#
+[INFO] Menunggu element By.xpath: //*[@id="country"]
+[INFO] Element ditemukan By.xpath: //*[@id="country"]
+[INFO] Select dropdown by index '11' pada element By.xpath: //*[@id="country"]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Check all radio buttons details
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Toggle']
+[INFO] Klik element By.xpath: //a[normalize-space()='Toggle']
+[INFO] Menunggu element By.id: no
+[INFO] Element ditemukan By.id: no
+[INFO] Klik element By.id: no
+[INFO] Menunggu element By.id: yes
+[INFO] Element ditemukan By.id: yes
+[INFO] Klik element By.id: yes
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Menampilkan detail element By.id: one
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Menampilkan detail element By.id: two
+[INFO] Menunggu element By.id: two
+[INFO] Element ditemukan By.id: two
+[INFO] Klik element By.id: two
+[INFO] Menunggu element By.id: one
+[INFO] Element ditemukan By.id: one
+[INFO] Klik element By.id: one
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Menampilkan detail element By.id: nobug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Menampilkan detail element By.id: bug
+[INFO] Menunggu element By.id: bug
+[INFO] Element ditemukan By.id: bug
+[INFO] Klik element By.id: bug
+[INFO] Menunggu element By.id: nobug
+[INFO] Element ditemukan By.id: nobug
+[INFO] Klik element By.id: nobug
+[INFO] Menunggu element By.xpath: //input[@id='foo']
+[INFO] Element ditemukan By.xpath: //input[@id='foo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='foo']
+[INFO] Menunggu element By.xpath: //input[@id='notfoo']
+[INFO] Element ditemukan By.xpath: //input[@id='notfoo']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notfoo']
+[INFO] Menunggu element By.xpath: //input[@id='going']
+[INFO] Element ditemukan By.xpath: //input[@id='going']
+[INFO] Menampilkan detail element By.xpath: //input[@id='going']
+[INFO] Menunggu element By.xpath: //input[@id='notG']
+[INFO] Element ditemukan By.xpath: //input[@id='notG']
+[INFO] Menampilkan detail element By.xpath: //input[@id='notG']
+[INFO] Menunggu element By.xpath: //input[@id='maybe']
+[INFO] Element ditemukan By.xpath: //input[@id='maybe']
+[INFO] Menampilkan detail element By.xpath: //input[@id='maybe']
+[INFO] Menunggu element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Element ditemukan By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menampilkan detail element By.xpath: //label[normalize-space()='Remember me']//input[@type='checkbox']
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Klik element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menunggu element By.xpath: //div[7]//label[2]//input[1]
+[INFO] Element ditemukan By.xpath: //div[7]//label[2]//input[1]
+[INFO] Menampilkan detail element By.xpath: //div[7]//label[2]//input[1]
+Feature: file:///C:/Users/Ray/IdeaProjects/LetCode/src/test/resources/feature/InputHandling.feature
+Scenario: Calendar input
+[INFO] Berhasil switch ke window index ke-0
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element di-scroll ke view By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Element ditemukan By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Klik element By.xpath: //a[normalize-space()='Date & Time']
+[INFO] Menunggu element By.id: birthday
+[INFO] Element ditemukan By.id: birthday
+[INFO] Mengisi teks ke element By.id: birthday
+[INFO] Delay selama 1000 ms
+[INFO] Menunggu element By.cssSelector: .label.pt-3
+[INFO] Element ditemukan By.cssSelector: .label.pt-3
+[INFO] Berhasil mengambil text dari element By.cssSelector: .label.pt-3 => 1999-02-12
